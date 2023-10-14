@@ -3,6 +3,6 @@ matplotlib
 seaborn
 plotly
 statsmodels
-Waffle
+pywaffle
 numpy
 hiplot
