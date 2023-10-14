@@ -1,0 +1,10 @@
+pandas
+matplotlib
+seaborn
+plotly
+statsmodels
+itertools
+random
+Waffle
+numpy
+hiplot
