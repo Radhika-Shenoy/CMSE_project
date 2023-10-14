@@ -37,7 +37,7 @@ if selection == "Dashboard":
 
     st.plotly_chart(fig)
 
-    flight_df = pd.read_csv('/Users/radhikavittalshenoy/Downloads/archive-2/passenger_exp_train.csv')
+    flight_df = pd.read_csv('flight_passengerSatisfaction.csv')
     gender_counts = flight_df['Gender'].value_counts()
     gender_percentage = (gender_counts / len(flight_df)) * 100
     fig = plt.figure(
