@@ -11,7 +11,7 @@ import plotly.subplots as sp
 import numpy as np
 
 import hiplot as hip
-flight_df = pd.read_csv('/Users/radhikavittalshenoy/Downloads/flight_pass_df.csv')
+flight_df = pd.read_csv('flight_passengerSatisfaction.csv')
 selection = st.sidebar.selectbox("Page View", ["Dashboard", "Analysis Page","Advanced Analysis"])
 if selection == "Dashboard":
     
