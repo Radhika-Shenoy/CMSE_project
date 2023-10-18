@@ -259,7 +259,9 @@ elif selected == 'Advanced Analysis':
         with st.form(key='login_form'):
             st.subheader('Login Credentials')
             username = st.text_input('**Enter your FlyHigh admin userID:**')
+            st.markdown('Default username: user')
             password = st.text_input('**Enter your FlyHigh admin password:**', type='password')
+            st.markdown('Default password: password')
             checkbox_val = st.checkbox("**I am an authorized FlyHigh member from the R&D team and wish to view the high dimensional representation of features!**")
             login_button = st.form_submit_button('Login')
         if login_button:
