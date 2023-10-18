@@ -279,6 +279,8 @@ elif selected == 'Advanced Analysis':
         hiplot_html = hiplot_exp.to_html()
         st.components.v1.html(hiplot_html, width=800, height=1300)
 
+st.markdown(f'<a href="https://flyhighproject-7fmy8ekgwxnxu8d4cwyqhr.streamlit.app"><button>Logut</button> </a>', unsafe_allow_html=True)
+
 
 
 
