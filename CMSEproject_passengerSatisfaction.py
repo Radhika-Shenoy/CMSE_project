@@ -65,7 +65,7 @@ if selected == 'Home':
     st.markdown('<h1 style="color:black;font-size:34px;">🛫FlyHigh Airlines: Rise beyond the clouds⛅</h1>', unsafe_allow_html=True)
     st.markdown('<h3 style="color:black;font-size:20px;"><em>As a brand, we are dedicated to crafting unforgettable experiences for every passenger that takes to the skies with us, ensuring every moment is filled with delight and wonder.</em></h3>', unsafe_allow_html=True)
     
-    image = Image.open('/Users/radhikavittalshenoy/Downloads/homepage_image.jpg')
+    image = Image.open('homepage_image.jpg')
     st.image(image, width=600)
 
     st.markdown('<em>Welcome to FlyHigh Airlines Home page! At FlyHigh Airlines, we are dedicated to providing all our flyers with an exceptional and comfortable flying experience. Our brand strives to offer the best-in-class services, ensuring their satisfaction is our top priority. With a focus on efficient operations and unparalleled customer service, we aim to make your journey with us as smooth and enjoyable as possible.Our Dashboard provides a comprehensive overview of key performance indicators, customer feedback, and operational insights. From passenger satisfaction ratings to on-time performance statistics, this page offers a holistic view of our airline performance. With an emphasis on safety, comfort,entertainmen and convenience, we constantly strive to enhance our services and meet the evolving needs of our valued passengers.</em>', unsafe_allow_html=True)
