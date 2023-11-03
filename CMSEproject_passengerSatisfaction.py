@@ -169,7 +169,7 @@ elif selected == "Overall Airline Stats":
         color_discrete_sequence=colors
     )
 
-    fig.update_traces(textinfo='percent+label', pull=[0.03, 0.02], textfont=dict(size=18),insidetextorientation='auto') 
+    fig.update_traces(textinfo='percent+label', pull=[0.03, 0.02], textfont=dict(size=18)) 
 
     fig.update_layout(
         showlegend=True,
