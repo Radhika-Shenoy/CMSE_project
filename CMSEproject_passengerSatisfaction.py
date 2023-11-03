@@ -174,8 +174,8 @@ elif selected == "Overall Airline Stats":
     fig.update_layout(
         showlegend=True,
         #title_font=dict(size=15),
-        width=650,
-        height=600
+        width=500,
+        height=500
     )
     st.plotly_chart(fig)
 
