@@ -146,15 +146,15 @@ elif selected == "Overall Airline Stats":
 
     def categorize_age(age):
         if age <= 1:
-            return 'Newborns'
+            return 'Newborns: Less than 1yr'
         elif 1 < age <= 3:
-            return 'Infants'
-        elif 3 < age <= 18:
-            return 'Children'
-        elif 18 < age <= 60:
-            return 'Adults'
+            return 'Infants: 1yrs - 3yrs'
+        elif 3 < age <= 14:
+            return 'Children: 3yrs - 14yrs'
+        elif 14 < age <= 60:
+            return 'Adults: 14yrs - 60 yrs'
         else:
-            return 'Seniors'
+            return 'Seniors: greater than 60yrs'
     #column1,column2 = st.columns([1,1])
     #with column1:
     flight_df['Age_Group'] = flight_df['Age'].apply(categorize_age)
