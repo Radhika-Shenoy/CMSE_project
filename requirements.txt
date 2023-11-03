@@ -10,3 +10,4 @@ hiplot
 pillow
 networkx
 streamlit_option_menu
+sklearn
