@@ -166,8 +166,7 @@ elif selected == "Overall Airline Stats":
         values=age_counts.values,
         names=age_counts.index,
         #title="Traveller Age category distribution",
-        color_discrete_sequence=colors,
-        insidetextorientation='radial'
+        color_discrete_sequence=colors
     )
 
     fig.update_traces(textinfo='percent+label', pull=[0.03, 0.02], textfont=dict(size=18),insidetextorientation='auto') 
